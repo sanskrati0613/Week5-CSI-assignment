@@ -32,7 +32,7 @@ Automate the pipeline from Task 1 using:
 
 Replicate all base tables from `customerdb` to `customerdb_copy`.
 
-### ⚙ Key Components
+###  Key Components
 
 * Lookup: Gets list of all base tables
 * ForEach: Iterates over tables
