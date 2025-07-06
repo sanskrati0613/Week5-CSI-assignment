@@ -12,7 +12,7 @@ Export data from SQL tables (`Customers`, `Products`) to three formats: CSV, Par
   * 3 for `Products`: CSV, Parquet, Avro
 * Sink: Azure Blob Storage
 
-# ✅ Task 2: Configure Schedule and Event Triggers
+#  Task 2: Configure Schedule and Event Triggers
 
 ###  Objective
 
@@ -21,7 +21,7 @@ Automate the pipeline from Task 1 using:
 * A **Schedule Trigger** (runs daily at 9 AM IST)
 * An **Event Trigger** (fires when `.txt` files are uploaded to Blob)
 
-### ⚙️ Trigger Setup
+###  Trigger Setup
 
 * **Schedule Trigger:** `DailyExportTrigger`
 * **Event Trigger:** `BlobEventTrigger` (Event Grid based)
