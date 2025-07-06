@@ -1,0 +1,10 @@
+[
+    {
+        "tableName": "Customers",
+        "columns": "id, name, email, country"
+    },
+    {
+        "tableName": "Products",
+        "columns": "id, name, price, category"
+    }
+]
